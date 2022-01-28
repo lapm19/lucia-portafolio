@@ -1,4 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .body {
-    background-image: url("circulo.svg");
-    background-size: cover;
-  }
+  background-color: rgb(228, 219, 213);
+  background-image: url("https://bellann.cl/wp-content/uploads/2021/02/image.png")
+}
+
+.header {
+  background-image: url('../html/imagenes/flor-header.png');
+}
+
+.logo_link, .header_item a{
+  color: rgba(101, 139, 101, 0.918);
+  text-decoration: none;
+}
