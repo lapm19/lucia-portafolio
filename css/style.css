@@ -2,18 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .body {
-  background-color: rgb(228, 219, 213);
   background-image: url("https://bellann.cl/wp-content/uploads/2021/02/image.png")
 }
 
 .header {
   background-image: url('../html/imagenes/flor-header.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 80px;
+  margin-bottom: 80px;
 }
 
-.logo_link, .header_item a{
+.header_item > a:hover{
+  text-decoration: underline;
+}
+
+.header_item a{
   color: rgba(101, 139, 101, 0.918);
   text-decoration: none;
+}
+
+.header_items {
+  list-style: none;
+  word-spacing: 5rem;
+}
+
+.header_item {
+  display: inline-block;
+  margin-top: 4.8em;
+}
+
+.p_pre a{
+  font-family: 'Courier New', Courier, monospace;
 }
