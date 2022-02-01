@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   padding: 50px 80px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .header_item > a:hover{
@@ -37,6 +37,22 @@
   margin-top: 4.8em;
 }
 
-.p_pre a{
-  font-family: 'Courier New', Courier, monospace;
+.main {
+  padding: 80px 80px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.main_article {
+  display: flex;
+}
+
+.main_title {
+  float: left;
+}
+
+img {
+  float: right;
+  width: 480px;
+  height: 600px;
 }
