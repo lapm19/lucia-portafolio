@@ -56,3 +56,33 @@
   width: 480px;
   height: 600px;
 }
+
+.sec_titulo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.table1 {
+  table-layout: fixed;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.tab_fila1 {
+  background-color: rgba(228, 190, 133, 0.726);
+}
+
+.tab_fila2 {
+  background-color: rgba(224, 203, 170, 0.726);
+}
+
+.tab_fila3 {
+  background-color: rgba(204, 223, 118, 0.726);
+}
+
+.tab_fila4 {
+  background-color: rgba(208, 219, 159, 0.726);
+}
